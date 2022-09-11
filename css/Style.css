@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Calibri", Arial, Helvetica, sans-serif;
+  }
+  body {
+    font-size: 16px;
+    color: rgb(6, 6, 6);
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /**Header**/
+  #header-nav {
+      background-color: #71706c;
+      border-radius:0;
+      border: 0;
+  }
+  
+  .brand-name h1 {
+      color: black;
+      margin-left: 20px;
+      font-weight: bolder;
+  }
+  
+  .brand-name a {
+      text-decoration: none;
+  }
+  h1 {
+      font-size: 1.5em;
+      text-align:center;
+  }
+  
+  #nav-list a {
+      text-align: center;
+      color: black;
+      padding: 10px;
+      margin: 2px;
+      font-weight: bold;
+  }
+  
+  #nav-list a:hover {
+      background: #61122f;
+      color: white;
+  }
+  
+  #nav-list a span {
+      font-size: 1em
+  }
+  
+  button.nav-toggle, .icon-bar {
+      border: 1px solid #61122f;
+  }   
+  #link  {
+      text-decoration: none;
+      margin: 10px;
+      color: white;
+  }
+  #link a:hover {
+      color: #f6b319
+  } 
+  /*--------------------------article---------------*/
+ .box{
+    border: 2px solid black;
+    margin: 20px 30px 20px 30px ;
+    background-color: #71706c;
+  }
